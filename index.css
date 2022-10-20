@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: yellow;
+    color: black;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#score{
+    font-family: Cambria, Cochin, Georgia;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    border-radius: 10px;
+}
+
+#reset{
+    font-family: Courier New, Courier, monospace;
+    margin-top: -25px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+
+button{
+    /* background-color: blue; */
+    border-style: solid;
+    margin-right: 5px;
+}
